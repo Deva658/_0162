@@ -8,11 +8,11 @@ class Node {
     Node*next;
 };
 
-class list {
+class SingleLinkedList {
     Node *START;
 
     public:
-    list() 
+    SingleLinkedList() 
     {
         START = NULL;
     }
@@ -90,7 +90,7 @@ class list {
     {
         if (listEmpty())
         {
-            cout << "\nList Kosong\n"
+            cout << "\nList Kosong\n";
         }
         else
         {
@@ -104,4 +104,27 @@ class list {
             cout << endl;
         }
     }
+};
+
+int main(){
+
+    SingleLinkedList mhs;
+    int nim;
+    char ch;
+    while(1)
+    {
+        cout << endl
+             << "MENU";
+        cout << endl
+             << "1. Menambah data kedalam list" << endl;
+        cout << "2. Menghapus data dari dalam list" << endl;
+        cout << "3. Menampilkan semua data dalam list" << endl;
+        cout << "4. Mencari data dalam list" << endl;
+        cout << "5. Keluar" << endl;
+        cout << endl
+             << "Masukan piliham (1-5): ";
+        cin >> ch;
+        
+    }
+
 }
