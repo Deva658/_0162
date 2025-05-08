@@ -7,3 +7,13 @@ class Node {
     int noMhs;
     Node*next;
 };
+
+class list {
+    Node *START;
+
+    public:
+    List()
+    {
+        START = NULL;
+    }
+}
