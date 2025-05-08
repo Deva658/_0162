@@ -158,7 +158,7 @@ int main(){
         break;
         case '4':
         {
-            if (Mhs.listEmpty() == true)
+            if (mhs.listEmpty() == true)
             {
                 cout << "\nList kosong\n";
                 break;
@@ -167,7 +167,7 @@ int main(){
             cout << endl
                  << "masukan no mahasiswa yang dicari : ";
             cin >> nim;
-            if (Mhs.Search(nim, &previous, &current) == false)
+            if (mhs.Search(nim, &previous, &current) == false)
                 cout << endl
                      << "data tidak dittemukann" << endl;
             else
@@ -178,7 +178,17 @@ int main(){
                 cout << "\n";
             }
         }
-        break;  
+        break;
+        case '5':
+        {
+            exit(0);
+        }  
+        break;
+        default;
+        {
+            cout << "Pilihan salah !." << endl;
+        }
+        break;
+        }
     }
-
 }
