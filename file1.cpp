@@ -12,8 +12,14 @@ class list {
     Node *START;
 
     public:
-    List()
+    list() 
     {
         START = NULL;
+    }
+    void addNode()
+    {
+        int nim;
+        cout << "\nMasukan Nomor Identitas"
+        cin >> nim;
     }
 }
