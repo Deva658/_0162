@@ -19,7 +19,12 @@ class list {
     void addNode()
     {
         int nim;
-        cout << "\nMasukan Nomor Identitas"
+        cout << "\nMasukan Nomor Identitas";
         cin >> nim;
+
+        Node *nodebaru = new Node;
+        nodebaru->noMhs = nim;
+
+        if (START)
     }
 }
