@@ -32,6 +32,9 @@ class list {
                 cout << "\nDuplikasi noMhs tidak diijinkan\n";
                 return;
             }
+
+            Node *previous = START;
+            Node *current = START;
         }
     }
 }
